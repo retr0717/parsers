@@ -1,0 +1,18 @@
++----------------------+
+| RIFF Header          |
++----------------------+
+| fmt  Chunk           |
++----------------------+
+| data Chunk           |
++----------------------+
+| Optional Chunks      |
++----------------------+
+
+and each chunk has 
++-------------+
+| Chunk ID    | 4 bytes
++-------------+
+| Chunk Size  | 4 bytes
++-------------+
+| Chunk Data  | variable
++-------------+
